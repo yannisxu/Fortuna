@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD6CDFE219F2963700B13F4F /* negativeQuotes.json in Resources */ = {isa = PBXBuildFile; fileRef = AD6CDFE019F2963700B13F4F /* negativeQuotes.json */; };
+		AD6CDFE319F2963700B13F4F /* positiveQuotes.json in Resources */ = {isa = PBXBuildFile; fileRef = AD6CDFE119F2963700B13F4F /* positiveQuotes.json */; };
+		AD86C3BE19F2781500A4A35F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD86C3BD19F2781500A4A35F /* AppDelegate.swift */; };
+		AD86C3C019F2781500A4A35F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD86C3BF19F2781500A4A35F /* ViewController.swift */; };
+		AD86C3C319F2781500A4A35F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD86C3C119F2781500A4A35F /* Main.storyboard */; };
+		AD86C3C519F2781500A4A35F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD86C3C419F2781500A4A35F /* Images.xcassets */; };
+		AD86C3C819F2781500A4A35F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD86C3C619F2781500A4A35F /* LaunchScreen.xib */; };
+		AD86C3D419F2781500A4A35F /* FortunaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD86C3D319F2781500A4A35F /* FortunaTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD86C3CE19F2781500A4A35F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD86C3B019F2781400A4A35F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD86C3B719F2781500A4A35F;
+			remoteInfo = Fortuna;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AD6CDFE019F2963700B13F4F /* negativeQuotes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = negativeQuotes.json; path = json/negativeQuotes.json; sourceTree = "<group>"; };
+		AD6CDFE119F2963700B13F4F /* positiveQuotes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = positiveQuotes.json; path = json/positiveQuotes.json; sourceTree = "<group>"; };
+		AD86C3B819F2781500A4A35F /* Fortuna.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fortuna.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD86C3BC19F2781500A4A35F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD86C3BD19F2781500A4A35F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AD86C3BF19F2781500A4A35F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AD86C3C219F2781500A4A35F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AD86C3C419F2781500A4A35F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AD86C3C719F2781500A4A35F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		AD86C3CD19F2781500A4A35F /* FortunaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FortunaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD86C3D219F2781500A4A35F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD86C3D319F2781500A4A35F /* FortunaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FortunaTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD86C3B519F2781500A4A35F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD86C3CA19F2781500A4A35F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD86C3AF19F2781400A4A35F = {
+			isa = PBXGroup;
+			children = (
+				AD86C3BA19F2781500A4A35F /* Fortuna */,
+				AD86C3D019F2781500A4A35F /* FortunaTests */,
+				AD86C3B919F2781500A4A35F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD86C3B919F2781500A4A35F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD86C3B819F2781500A4A35F /* Fortuna.app */,
+				AD86C3CD19F2781500A4A35F /* FortunaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD86C3BA19F2781500A4A35F /* Fortuna */ = {
+			isa = PBXGroup;
+			children = (
+				AD86C3BD19F2781500A4A35F /* AppDelegate.swift */,
+				AD86C3BF19F2781500A4A35F /* ViewController.swift */,
+				AD86C3C119F2781500A4A35F /* Main.storyboard */,
+				AD86C3C419F2781500A4A35F /* Images.xcassets */,
+				AD86C3C619F2781500A4A35F /* LaunchScreen.xib */,
+				AD86C3BB19F2781500A4A35F /* Supporting Files */,
+			);
+			path = Fortuna;
+			sourceTree = "<group>";
+		};
+		AD86C3BB19F2781500A4A35F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AD6CDFE019F2963700B13F4F /* negativeQuotes.json */,
+				AD6CDFE119F2963700B13F4F /* positiveQuotes.json */,
+				AD86C3BC19F2781500A4A35F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AD86C3D019F2781500A4A35F /* FortunaTests */ = {
+			isa = PBXGroup;
+			children = (
+				AD86C3D319F2781500A4A35F /* FortunaTests.swift */,
+				AD86C3D119F2781500A4A35F /* Supporting Files */,
+			);
+			path = FortunaTests;
+			sourceTree = "<group>";
+		};
+		AD86C3D119F2781500A4A35F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AD86C3D219F2781500A4A35F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD86C3B719F2781500A4A35F /* Fortuna */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD86C3D719F2781500A4A35F /* Build configuration list for PBXNativeTarget "Fortuna" */;
+			buildPhases = (
+				AD86C3B419F2781500A4A35F /* Sources */,
+				AD86C3B519F2781500A4A35F /* Frameworks */,
+				AD86C3B619F2781500A4A35F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fortuna;
+			productName = Fortuna;
+			productReference = AD86C3B819F2781500A4A35F /* Fortuna.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD86C3CC19F2781500A4A35F /* FortunaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD86C3DA19F2781500A4A35F /* Build configuration list for PBXNativeTarget "FortunaTests" */;
+			buildPhases = (
+				AD86C3C919F2781500A4A35F /* Sources */,
+				AD86C3CA19F2781500A4A35F /* Frameworks */,
+				AD86C3CB19F2781500A4A35F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD86C3CF19F2781500A4A35F /* PBXTargetDependency */,
+			);
+			name = FortunaTests;
+			productName = FortunaTests;
+			productReference = AD86C3CD19F2781500A4A35F /* FortunaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD86C3B019F2781400A4A35F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Yannis Xu";
+				TargetAttributes = {
+					AD86C3B719F2781500A4A35F = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					AD86C3CC19F2781500A4A35F = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = AD86C3B719F2781500A4A35F;
+					};
+				};
+			};
+			buildConfigurationList = AD86C3B319F2781500A4A35F /* Build configuration list for PBXProject "Fortuna" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD86C3AF19F2781400A4A35F;
+			productRefGroup = AD86C3B919F2781500A4A35F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD86C3B719F2781500A4A35F /* Fortuna */,
+				AD86C3CC19F2781500A4A35F /* FortunaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD86C3B619F2781500A4A35F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD86C3C319F2781500A4A35F /* Main.storyboard in Resources */,
+				AD86C3C819F2781500A4A35F /* LaunchScreen.xib in Resources */,
+				AD6CDFE319F2963700B13F4F /* positiveQuotes.json in Resources */,
+				AD86C3C519F2781500A4A35F /* Images.xcassets in Resources */,
+				AD6CDFE219F2963700B13F4F /* negativeQuotes.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD86C3CB19F2781500A4A35F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD86C3B419F2781500A4A35F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD86C3C019F2781500A4A35F /* ViewController.swift in Sources */,
+				AD86C3BE19F2781500A4A35F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD86C3C919F2781500A4A35F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD86C3D419F2781500A4A35F /* FortunaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD86C3CF19F2781500A4A35F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD86C3B719F2781500A4A35F /* Fortuna */;
+			targetProxy = AD86C3CE19F2781500A4A35F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AD86C3C119F2781500A4A35F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD86C3C219F2781500A4A35F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AD86C3C619F2781500A4A35F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD86C3C719F2781500A4A35F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD86C3D519F2781500A4A35F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AD86C3D619F2781500A4A35F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD86C3D819F2781500A4A35F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Fortuna/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AD86C3D919F2781500A4A35F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Fortuna/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AD86C3DB19F2781500A4A35F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FortunaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fortuna.app/Fortuna";
+			};
+			name = Debug;
+		};
+		AD86C3DC19F2781500A4A35F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FortunaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fortuna.app/Fortuna";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD86C3B319F2781500A4A35F /* Build configuration list for PBXProject "Fortuna" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD86C3D519F2781500A4A35F /* Debug */,
+				AD86C3D619F2781500A4A35F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD86C3D719F2781500A4A35F /* Build configuration list for PBXNativeTarget "Fortuna" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD86C3D819F2781500A4A35F /* Debug */,
+				AD86C3D919F2781500A4A35F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD86C3DA19F2781500A4A35F /* Build configuration list for PBXNativeTarget "FortunaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD86C3DB19F2781500A4A35F /* Debug */,
+				AD86C3DC19F2781500A4A35F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD86C3B019F2781400A4A35F /* Project object */;
+}
